@@ -28,7 +28,7 @@
   
   html{
       scroll-behavior: smooth;
-      font-size: 87.5%;
+      font-size: 88.5%;
 
   }
 
@@ -118,9 +118,6 @@ p{
 
 
 @media (max-width:40rem){
-  html{
-    font-size:68.5%;
-  }
   .Switch{
      margin-left: auto;
   }
