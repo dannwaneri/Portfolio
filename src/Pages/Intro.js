@@ -1,0 +1,44 @@
+import styled from 'styled-components'
+
+
+export const ParagraphWrapper = styled.div`
+max-width: 35rem;
+  color: var(--text-color);
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+p{
+  margin: 0rem 0rem 1rem;
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color:var(--text-color);
+  font-family: 'Quicksand', sans-serif;
+  &:last-child{
+    margin-bottom: 2rem;
+  }
+  @media (max-width:40rem){
+    font-size:1.4rem;
+    line-height: 1.6;
+  }
+}
+`;
+
+
+const intro = "I am Penuel Nwaneri. I am a self-taught software developer.I love experimenting with React,Node, and typescript to create new exciting web applications."
+
+const intro2 = "As a self-taught engineer, I basically learned everything I know about software and data systems online. I studied Geology and Geophysics in school, but I transitioned into tech in 2018."
+
+/**const intro3 = "From the online courses and meetup with experienced developers , I learned how to code; how to store, manipulate, analyze, and interpret data; and how to use mathematical concepts like big O notation and algorithms. With this knowledge, I know what to look for in a job."**/
+
+const Intro = () => {
+    return (
+        <ParagraphWrapper>
+        <p>{intro}</p>
+        <p>{intro2}</p>
+        {/**<p>{intro3}</p>**/}
+        </ParagraphWrapper>
+      );
+}
+ 
+export default Intro;
