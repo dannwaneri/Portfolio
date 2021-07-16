@@ -18,8 +18,7 @@ p{
     margin-bottom: 2rem;
   }
   @media (max-width:40rem){
-    font-size:1.4rem;
-    line-height: 1.6;
+    font-size:1.1rem;
   }
 }
 `;
