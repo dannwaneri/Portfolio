@@ -187,12 +187,11 @@ const SkillDetails = "Through my studies, I've gained a solid understanding of c
 const SkillDetailsWrapper = styled.p`
   margin: 0rem 0rem 0.5rem;
   font-size: 1.3rem;
-  line-height: 1.7;
+  line-height: 1.5;
   color:var(--text-color);
   font-family: 'Quicksand', sans-serif;
   @media (max-width:40rem){
-    font-size:1.4rem;
-    line-height: 1.6;
+    font-size:1.1rem;
   }
 `;
 
