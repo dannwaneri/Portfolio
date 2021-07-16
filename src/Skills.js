@@ -199,7 +199,7 @@ const Skills = () =>{
     
 return(
   <SkillSetWrapper>
-    <SkillTitle>Skills</SkillTitle>
+    <SkillTitle>Tech Stack</SkillTitle>
     <SkillDetailsWrapper>{SkillDetails}</SkillDetailsWrapper>
     <SkillSet>
   {skills.map( (skill) => (
