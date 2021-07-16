@@ -11,7 +11,7 @@ max-width: 35rem;
 p{
   margin: 0rem 0rem 1rem;
   font-size: 1.3rem;
-  line-height: 1.7;
+  line-height: 1.5;
   color:var(--text-color);
   font-family: 'Quicksand', sans-serif;
   &:last-child{
