@@ -199,11 +199,14 @@ const Skills = () =>{
     
 return(
   <SkillSetWrapper>
-    <SkillTitle>Tech Stack</SkillTitle>
-    <SkillDetailsWrapper>{SkillDetails}</SkillDetailsWrapper>
+    <SkillTitle data-aos="fade-up"
+        data-aos-delay="600">Tech Stack</SkillTitle>
+    <SkillDetailsWrapper data-aos="fade-up"
+        data-aos-delay="700">{SkillDetails}</SkillDetailsWrapper>
     <SkillSet>
   {skills.map( (skill) => (
-  <SvgWrapper key ={skill.id}>
+  <SvgWrapper data-aos="fade-up"
+  data-aos-delay="800" key ={skill.id}>
   {skill.logo} {skill.name}
   </SvgWrapper>
   ))}

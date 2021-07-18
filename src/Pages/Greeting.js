@@ -4,7 +4,7 @@ const greetings = 'Hello there!';
 
 const Greeting= () => {
     return (  
-        <h1 className="greetings"><strong>{greetings}</strong></h1>
+        <h1 data-aos="fade-up" className="greetings"><strong>{greetings}</strong></h1>
     );
 }
  

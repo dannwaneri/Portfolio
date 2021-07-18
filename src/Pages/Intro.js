@@ -33,8 +33,10 @@ const intro2 = "As a self-taught engineer, I basically learned everything I know
 const Intro = () => {
     return (
         <ParagraphWrapper>
-        <p data-aos="fade-up" >{intro}</p>
-        <p>{intro2}</p>
+        <p data-aos="fade-up"
+      data-aos-delay="300" >{intro}</p>
+        <p data-aos="fade-up"
+        data-aos-delay="500">{intro2}</p>
         {/**<p>{intro3}</p>**/}
         </ParagraphWrapper>
       );
