@@ -9,7 +9,8 @@ import styled from 'styled-components';
  
  const Css = () =>{
 return (<svg xmlns="http://www.w3.org/2000/svg" style ={{height: '1.7rem',
-width: '1.7rem',}} viewBox="0 0 24 24" role="presentation"><path d="M5,3L4.35,6.34H17.94L17.5,8.5H3.92L3.26,11.83H16.85L16.09,15.64L10.61,17.45L5.86,15.64L6.19,14H2.85L2.06,18L9.91,21L18.96,18L20.16,11.97L20.4,10.76L21.94,3H5Z" style={{fill:"currentColor"}}></path></svg>
+width: '1.7rem', color:'#3572b5',
+    opacity: 0.6,}} viewBox="0 0 24 24" role="presentation"><path d="M5,3L4.35,6.34H17.94L17.5,8.5H3.92L3.26,11.83H16.85L16.09,15.64L10.61,17.45L5.86,15.64L6.19,14H2.85L2.06,18L9.91,21L18.96,18L20.16,11.97L20.4,10.76L21.94,3H5Z" style={{fill:"currentColor"}}></path></svg>
 )}
 
 const Js = () => {
