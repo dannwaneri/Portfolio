@@ -14,7 +14,6 @@ const HeaderWrapper = styled.header`
      width: 100%;
      height: 3.125rem;
      z-index: 10;
-     border-bottom: 1px solid var(--border-clr);
      opacity: 1;
      transition: all 250ms ease-in-out;
 
