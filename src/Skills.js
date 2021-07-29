@@ -205,8 +205,7 @@ return(
         data-aos-delay="900">{SkillDetails}</SkillDetailsWrapper>
     <SkillSet>
   {skills.map( (skill) => (
-  <SvgWrapper data-aos="fade-up"
-  data-aos-delay="1000" key ={skill.id}>
+  <SvgWrapper key ={skill.id}>
   {skill.logo} {skill.name}
   </SvgWrapper>
   ))}
