@@ -60,7 +60,7 @@ const Header = () => {
     setPrevScrollPos(currentScrollPos)
 
     if(currentScrollPos > 0){
-    document.body.classList.add('fixed-header')
+     document.body.classList.add('fixed-header');  
     document.body.style.paddingTop = height +'px';
 } else{
     document.body.style.paddingTop = 0;
