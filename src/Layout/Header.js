@@ -30,6 +30,7 @@ const ImgWrapper = styled.div`
  display: flex;
    justify-content: center;
    align-items: center;
+   border: 1px solid var(--border-clr);
    &:focus{
        outline: none !important;
    }
