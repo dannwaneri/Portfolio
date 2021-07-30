@@ -17,6 +17,12 @@ const HeaderWrapper = styled.header`
      z-index: 10;
      opacity: 1;
      transition: all 250ms ease-in-out;
+     body.fixed-header{
+    top: 0;
+  }
+   body.fixed-header main{
+     transform: scale(1);
+   }
 
 `;
 
