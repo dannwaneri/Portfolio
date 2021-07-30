@@ -30,7 +30,6 @@ const ImgWrapper = styled.div`
  display: flex;
    justify-content: center;
    align-items: center;
-   background-color:rgba(255,255,255,1.00);
    &:focus{
        outline: none !important;
    }
@@ -46,6 +45,7 @@ const Img = styled.img`
    width: 1.86rem;
    height: 1.86rem;
    border: 1px solid var(--border-clr);
+   background-color:rgba(255,255,255,1.00);
 
 `;
 
