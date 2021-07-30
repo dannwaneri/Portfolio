@@ -1,7 +1,10 @@
-import { Layout } from '../Layout';
+import { Layout } from '../Layout'; 
 import Greeting from '../Pages/Greeting'
 import Intro from '../Pages/Intro'
 import { IntroWrapper } from '../Pages/introwrapper'
+
+
+
 
 const Contact = () => (
   <Layout>
