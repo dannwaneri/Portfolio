@@ -1,6 +1,6 @@
 
 
-const greetings = 'Hello there!';
+const greetings = 'Hey there!';
 
 const Greeting= () => {
     return (  
