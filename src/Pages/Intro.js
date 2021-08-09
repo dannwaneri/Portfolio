@@ -26,7 +26,7 @@ p{
 
 const intro = "I am Penuel Nwaneri. I am a self-taught software developer.I love experimenting with React,Node, and typescript to create new exciting web applications."
 
-const intro2 = "I studied Geology and Geophysics in school, but transitioned into tech in 2018.Being part of the tech field excites me, as it's an industry that fosters lifelong learning,as well as personal and professional growth!"
+const intro2 = "I primarily use react but picking up a new framework or language isn't a problem. I have extensive programming experience and I'm comfortable working on the frontend or backend."
 
 /**const intro3 = "From the online courses and meetup with experienced developers , I learned how to code; how to store, manipulate, analyze, and interpret data; and how to use mathematical concepts like big O notation and algorithms. With this knowledge, I know what to look for in a job."**/
 
