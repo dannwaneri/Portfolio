@@ -48,8 +48,8 @@ const Img = styled.img`
    display: block;
    object-fit: cover;
    border-radius: 3.125rem;
-   width: 2rem;
-   height: 2rem;
+   width: 2.2rem;
+   height: 2.2rem;
    border: 1px solid var(--border-clr);
    background-color:rgba(255,255,255,1.00);
 
