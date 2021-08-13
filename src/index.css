@@ -38,7 +38,7 @@
     line-height: 1.5;
     color: var(--text-color);
   }
-  body .fixed-header{
+  body .fixed-header {
     top: 0;
   }
    body .fixed-header main{
