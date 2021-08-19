@@ -62,8 +62,7 @@ return (
            </div> 
            <form onSubmit={handleSubmit}
           netlify
-          name="contact"
-          style={{display:'flex',flexDirection:'column',width:'100%',marginTop:''}}>
+          name="contact" className="contact-form">
           <h2>
             Hire Me
           </h2>
@@ -75,8 +74,7 @@ return (
             <label htmlFor="name">
               Name
             </label>
-            <input
-            style={{width:'100%',borderRadius:'0.25rem', borderColor:'var(--border-clr)'}}
+            <input className = "input-field"
               type="text"
               id="name"
               name="name"
@@ -87,8 +85,7 @@ return (
             <label htmlFor="email">
               Email
             </label>
-            <input
-            style={{width:'100%',borderRadius:'0.25rem', borderColor:'var(--border-clr)'}}
+            <input className ="input-field"
               type="email"
               id="email"
               name="email"
@@ -103,10 +100,10 @@ return (
             <textarea
             onChange={(e) => { setMessage(e.target.value)} }
               id="message"
-              name="message" style={{width:'100%',borderRadius:'0.25rem', borderColor:'var(--border-clr)'}}
+              name="message"
             />
           </div>
-          <button style={{paddingTop:'0.5rem',paddingBottom:'0.5rem',paddingLeft:'1.5rem',paddingRight:'1.5rem',outline:'none'}}
+          <button className="submit-button"
             type="submit">
             Submit
           </button>
