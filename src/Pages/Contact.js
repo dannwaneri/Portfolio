@@ -47,7 +47,7 @@ return (
             <div style={{display: 'flex',flexWrap:'nowrap',padding:'2.5rem',borderRadius:'0.25rem',}}>
               <div style={{paddingRight:'1.5rem',paddingLeft:'1.5rem'}}>
                     <h2 style={{}}>Address</h2>
-                    <p Style={{marginTop:'0.25rem'}}>
+                    <p style={{marginTop:'0.25rem'}}>
                     97 Warren St. <br />
                       New York, NY 10007
                     </p>
@@ -60,10 +60,10 @@ return (
               </div>
             </div>
            </div> 
-           <form onsubmit={handleSubmit}
+           <form onSubmit={handleSubmit}
           netlify
           name="contact"
-          Style={{display:'flex',flexDirection:'column',width:'100%',marginTop:''}}>
+          style={{display:'flex',flexDirection:'column',width:'100%',marginTop:''}}>
           <h2>
             Hire Me
           </h2>
