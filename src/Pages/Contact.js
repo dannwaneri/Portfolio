@@ -1,4 +1,4 @@
-import useState from 'react'
+import React, {useState} from 'react'
 import { Layout } from '../Layout'; 
 import { IntroWrapper } from '../Pages/introwrapper'
 
@@ -6,7 +6,8 @@ import { IntroWrapper } from '../Pages/introwrapper'
 
 
 const Contact = () => {
-  const [name, setName] = useState("");
+  
+const [name, setName] = useState("");
 const [email, setEmail] = useState("");
 const [message, setMessage] = useState("");
 
