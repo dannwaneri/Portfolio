@@ -72,36 +72,33 @@ return (
           </p>
           <div style={{position:'relative',marginBottom:'1rem'}}>
             <label htmlFor="name">
-              Name
-            </label>
-            <input className = "input-field"
+              Your Name:<input className = "input-field"
               type="text"
               id="name"
               name="name"
               onChange={(e) => { setName(e.target.value)} }
             />
+            </label>
           </div>
           <div style={{position:'relative', marginBottom:'1rem'}}>
             <label htmlFor="email">
-              Email
-            </label>
-            <input className ="input-field"
+              Your Email: <input className ="input-field"
               type="email"
               id="email"
               name="email"
               onChange={(e) => {setEmail(e.target.value) } }
             />
+            </label>
           </div>
           <div style={{position:'relative',marginBottom:'1rem'}}>
             <label
               htmlFor="message">
-              Message
-            </label>
-            <textarea
+              Message : <textarea
             onChange={(e) => { setMessage(e.target.value)} }
               id="message"
               name="message"
             />
+            </label>
           </div>
           <button className="submit-button"
             type="submit">
