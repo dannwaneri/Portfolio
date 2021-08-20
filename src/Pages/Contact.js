@@ -61,8 +61,8 @@ return (
             </div>
            </div> 
            <form onSubmit={handleSubmit}
-          netlify
-          name="contact" className="contact-form">
+          data-netlify = 'true' 
+          name="contact" method="post" className="contact-form">
           <h2>
             Hire Me
           </h2>
