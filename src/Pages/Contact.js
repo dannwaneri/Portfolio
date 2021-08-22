@@ -26,7 +26,7 @@ const handleSubmit = (e) => {
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: encode({ "form-name": "contact", name, email, message }),
   })
-    .then(() => alert("Message sent!"))
+    .then(() => alert("Message sentYour message have been submitted. Thank you for reaching out.!"))
     .catch((error) => alert(error));
 }
 return (
@@ -71,29 +71,27 @@ return (
             suscipit officia aspernatur veritatis. Asperiores, aliquid?
           </p>
           <div style={{position:'relative',marginBottom:'1rem'}}>
-            <label htmlFor="name">
-              Your Name:<input className = "input-field"
+            <label htmlFor="name">Name<input className = "input-field"
               type="text"
               id="name"
               name="name"
+              placeholder="Name"
               onChange={(e) => { setName(e.target.value)} }
             />
             </label>
           </div>
           <div style={{position:'relative', marginBottom:'1rem'}}>
-            <label htmlFor="email">
-              Your Email: <input className ="input-field"
+            <label htmlFor="email">Email<input className ="input-field"
               type="email"
               id="email"
-              name="email"
+              name="email" placeholder="Email"
               onChange={(e) => {setEmail(e.target.value) } }
             />
             </label>
           </div>
           <div style={{position:'relative',marginBottom:'1rem'}}>
             <label
-              htmlFor="message">
-              Message : <textarea
+              htmlFor="message">Message<textarea
             onChange={(e) => { setMessage(e.target.value)} }
               id="message"
               name="message"
